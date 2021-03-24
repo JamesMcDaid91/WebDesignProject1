@@ -1,0 +1,19 @@
+header {
+    position: relative;
+    border: .5% white;
+}
+.banner{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.logo{
+   position: absolute;
+    width: 15%;
+    top: 55%;
+    left: 1%;  
+}
+main {
+    background-image: url(../Images/rugbyPitch.jpeg)
+}

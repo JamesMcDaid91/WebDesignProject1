@@ -1,0 +1,22 @@
+    <section class = "column">
+                    <p class="ireland">Ireland</p>
+                </section>
+                <section class= "column">
+                    <p class="france">France</p>
+                </section> 
+            </section>
+            <section class = "row" class = "row2">
+                <section class = "column">
+                    <p class="wales">Wales</p>
+                </section>
+                <section class= "column">
+                    <p class="italy">Italy</p>
+                </section> 
+            </section>
+            <section class = "row" class ="row3">
+                <section class = "column">
+                    <p class="scotland">Scotland</p>
+                </section>
+                <section class= "column">
+                    <p class="england">England</p>
+                </section>

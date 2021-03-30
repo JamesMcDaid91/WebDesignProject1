@@ -1,6 +1,6 @@
 header {
     position: relative;
-    border: .5% white;
+    border-bottom: .5% white;
 }
 .banner{
     width: 100%;
@@ -15,5 +15,77 @@ header {
     left: 1%;  
 }
 main {
-    background-image: url(../Images/rugbyPitch.jpeg)
+    position: relative;
+}
+.background{
+    z-index: -1;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.row{
+    position: absolute;
+    display:table-cell;
+    top: 5vw;
+    left 0;
+    vertical-align: middle;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;  
+}
+ul{
+    vertical-align: middle;
+    margin-left: 20%;
+    list-style-type: none;
+}
+li {
+    vertical-align: middle;
+    width: 100%;
+    text-align: left;
+    font-size: 5vw;
+    margin: 1.5vw;
+    padding: 2vw;
+    border: .3vw solid black;
+    border-radius: 1vw;
+}
+.ireland{
+    background-color: #00643e;
+    color: white;
+}
+.wales{
+    background-color: #cf1307;
+    color: white;
+}
+.scotland{
+    background-color: #014983;
+    color: white;
+}
+.england{
+    background-color: white;
+    color: black;
+    
+}
+.france{
+    background-color: #023577;
+    color: white;
+}
+.italy{
+    background-color: #2171c6;
+    color: white;
+}
+.teamlogo{
+    
+    padding-top: 2vw;
+    position: relative;
+    width: 8vw;
+    height: 8vw;
+}
+a:link{
+    text-decoration: none;
 }

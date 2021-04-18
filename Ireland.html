@@ -3,23 +3,93 @@
         Aurther:                James MCDaid
         Date Created:           10/March/20201
         Page Description:       Ireland's Page 
-        Modified:10/March/2021    Set out of the template
+        Modified:   10/March/2021    Set out of the template
+                    5/April/2021     Updated Head, made header an aside nav list
+                    8/april/2021     Made main section and table.
+                    9/april/2021     Placed in videos and map. Formatted layout
+                    10/april/2021    Made favicons 
+
 -->
 <html lang="en">
     <head>
         <meta charset="utf-8" />    <!--8-bit character encoding capable of encoding all possible characters -->
         <meta name="description"    content="RBS Six Nations; Ireland">
-        <meta name="keywords"       content="RBS Six Nations, Ireland, England, Scotland, Wales, France, Italy, Rugby, Rugby Tounament, Tournament, International, Teams">
+        <meta name="keywords"       content="RBS Six Nations, Ireland, Aviva, Rugby, Rugby Tounament, Tournament, International, Teams">
         <meta name="author"         content="James McDaid">
         <title>Ireland</title>
-        <link rel="stylesheet" type="text/css" href="Styles/Homepage.css">
+        <link rel="stylesheet" type="text/css" href="Styles/team.css">
+        <style> body{background-color: #00643e;color: white;}</style>
+        <link href="Images/irishlogo.png" rel="icon" type="image/x-icon" />
     </head>
     <body>
         <header>
+            <img class="banner" src="Images/irishStatdium.jpg" alt="Aviva Stadium">
+            <img class="logo" style = "background-color: #00643e;" src="Images/irishlogo.png" alt="Ireland's Logo">
         </header>
         <main>
+            <aside>
+                <ul>
+                    <li><a href ="index.html">Home</a></li>
+                    <li><a href ="Wales.html">Wales</a></li>
+                    <li><a href ="Scotland.html">Scotland</a></li>
+                    <li><a href ="France.html">France</a></li>
+                    <li><a href ="Italy.html">Italy</a></li>
+                    <li><a href ="England.html">England</a></li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.448247960092!2d-6.230645584161964!3d53.335231779976795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ec268eb8af9%3A0xe37e998e72032668!2sAviva%20Stadium!5e0!3m2!1sen!2sie!4v1618086933791!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+                <h6>Home Stadium Location</h6>
+            </aside> 
+            <section>
+                    <h3 style ="padding-right: 5%">The Irish team plays from the Aviva Stadium in Dublin, Ireland. The team represents both the Republic of Ireland and Northern Ireland. The Ireland national team dates to 1875. Ireland reached number 1 in the World Rankings for the first time in 2019 and currently holds 4th(As of April 2021)</h3>
+            </section>
+            <section>
+                <h1>Ireland's 2021 Six Nation</h1>
+                <table>
+                    <tr><th>Round</th>  <th>Match Date</th> <th>Home Team</th>  <th>Away Team</th>  <th>Half-Time Score</th>    <th>Full Time Score</th>    </tr>
+                    <tbody>
+                        <tr><th>1</th>          <td>Feb 7th</td>    <td>Wales</td>      <td>Ireland</td>    <th>6-13</th>               <th>21-16</th></tr>
+                        <tr><th>2</th>          <td>Feb 14th</td>   <td>Ireland</td>    <td>France</td>     <th>3-10</th>               <th>13-15</th></tr>
+                        <tr><th>3</th>          <td>Feb 27th</td>   <td>Italy</td>      <td>Ireland</td>    <th>10-27</th>              <th>10-48</th></tr>
+                        <tr><th>4</th>          <td>Mar 14th</td>   <td>Scotland</td>   <td>Ireland</td>    <th>10-14</th>              <th>24-27</th></tr>
+                        <tr><th>5</th>          <td>Mar 20th</td>   <td>Ireland</td>    <td>England</td>    <th>20-6</th>               <th>32-18</th></tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class = "row">
+                <section class="column">
+                    <section class="videoContent">
+                        <h2>Round 1 Match Highlights</h2>
+                        <iframe src="https://www.youtube.com/embed/TO0RdEWu70M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>                    
+                </section>
+                 <section class="column">
+                    <section class="videoContent">
+                        <h2>Round 2 Match Highlights</h2>
+                        <iframe src="https://www.youtube.com/embed/YbLfMMGjQFo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section> 
+                </section>
+                 <section class="column">
+                    <section class="videoContent">
+                        <h2>Round 3 Match Highlights</h2>
+                        <iframe src="https://www.youtube.com/embed/A8kXfdGQxV4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>                    
+                </section>
+                 <section class="column">
+                    <section class="videoContent">
+                        <h2>Round 4 Match Highlights</h2>
+                        <iframe src="https://www.youtube.com/embed/4qRKMLSY2m8" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>                    
+                </section>
+                 <section class="column">
+                    <section class="videoContent">
+                        <h2>Round 5 Match Highlights</h2>
+                        <iframe src="https://www.youtube.com/embed/o_nExo8FcW8" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>                    
+                </section>
+            </section>
         </main>
         <footer>
+            <p><a href ="contact.html" style="color: black">Contact Us</a></p>
             <p>Copyright 2021 James McDaid</p>
         </footer>
     </body>

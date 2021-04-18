@@ -4,7 +4,8 @@
         Date Created:           10/March/20201
         Page Description:       The homepage for project1 in web design. Home page as set out in the proposal based on the RBS six nations 
         Modified:   10/March/2021    Set out of the template
-                    18/March/2021    Set out of page: Banner and logo placement   
+                    18/March/2021    Set out of page: Banner and logo placement 
+                    2/April/2021     Palced buttons and formatted layout   
 -->
 <html lang="en">
     <head>
@@ -14,33 +15,37 @@
         <meta name="author"         content="James McDaid">
         <title>RBS Six Nations</title>
         <link rel="stylesheet" type="text/css" href="Styles/Homepage.css">
+        <link href="Images/logo.jpg" rel="icon" type="image/x-icon" />
     </head>
+    
     <body>
         <header>
-            <img class="banner" src="Images/ballOnPitch.jpg">
-            <img class="logo" src="Images/logo.jpg" alt="6 Nation's Logo">
+            <img class="banner" src="Images/ballOnPitch.jpg" alt = "Rugby Ball on a pitch">
+            <a href ="https://www.sixnationsrugby.com/"><img class="logo" src="Images/logo.jpg" alt="6 Nation's Logo"></a>
         </header>
+        
         <main>
-            <img class="background" src="Images/rugbyPitch.jpeg">
+            <img class="background" src="Images/rugbyPitch.jpeg" alt = "Rugby Pitch">
             <section class = "row">
-                <section class="column">
+                <section class="column" style="left:5px">
                     <ul>
-                        <a href ="Ireland.html"><li class="ireland"><img class = "teamlogo" src = "Images/irishlogo.png">Ireland</li></a>
-                        <a href ="Wales.html"><li class="wales"><img class="teamlogo" src ="Images/waleslogo.jpg">Wales</li></a>
-                        <a href ="Scotland.html"><li class="scotland"><img class = "teamlogo" src= "Images/scottishlogo.jpg">Scotland</li></a>
+                        <li class="ireland"><a href ="Ireland.html"><img class = "teamlogo" src = "Images/irishlogo.png" alt = "Irish Rugby Logo">Ireland</a></li>
+                        <li class="wales"><a href ="Wales.html"><img class="teamlogo" src ="Images/waleslogo.jpg" alt="Wales' Rugby Logo">Wales</a></li>
+                        <li class="scotland"><a href ="Scotland.html"><img class = "teamlogo" src= "Images/scottishlogo.jpg" alt="Acottish Rugby Logo">Scotland</a></li>
                     </ul>
                 </section> 
                 <section class="column">
                     <ul>
-                        <a href ="France.html"><li class="france"><img class = "teamlogo" src="Images/frenchlogo.jpg">France</li></a>
-                        <a href ="Italy.html"><li class="italy"><img class = "teamlogo" src = "Images/italylogo.jpg">  Italy</li></a>
-                        <a href ="England.html"><li class="england"><img class = "teamlogo" src ="Images/englishlogo.png">England</li></a>
+                        <li class="france"><a href ="France.html"><img class = "teamlogo" src="Images/frenchlogo.jpg" alt="French Rugby Logo">France</a></li>
+                        <li class="italy"><a href ="Italy.html"><img class = "teamlogo" src = "Images/italylogo.jpg" alt="Italian Rugby Logo">  Italy</a></li>
+                        <li class="england"><a href ="England.html"><img class = "teamlogo" src ="Images/englishlogo.png" alt="English Rugby Logo">England</a></li>
                     </ul>
                 </section> 
             </section>
-            
         </main>
+        
         <footer>
+            <p><a href ="contact.html" style="color: black">Contact Us</a></p>
             <p>Copyright 2021 James McDaid</p>
         </footer>
     </body>

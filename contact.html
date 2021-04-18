@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- The following lines are commenmts:
+        Aurther:                James MCDaid
+        Date Created:           17/April/20201
+        Page Description:       Contact forum for the website
+        Modified:               17/april/2021   Created the forum
+                                taken from w3school and modified @ https://www.w3schools.com/howto/howto_css_contact_form.asp
+                                changed the action to take to a redirect page; this currently doesnt do anything with the information given
+                                gave name and subject a required field
+
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />    <!--8-bit character encoding capable of encoding all possible characters -->
+        <meta name="description"    content="Contact Forum">
+        <meta name="keywords"       content="Contact">
+        <meta name="author"         content="James McDaid">
+        <link rel="stylesheet" type="text/css" href="Styles/contact.css">
+        <link href="Images/contact.png" rel="icon" type="image/x-icon" />
+        <title>Contact Us</title> 
+    </head>
+    <body>
+        <header>
+            <h1>Please enter your information:</h1>
+        </header>
+        <main>
+            <section class="container">
+                <form action="redirect.html" method="get">
+                    <h2><span class="required">*</span> Marks a required field</h2>
+                    
+
+                    <label for="fname">First Name</label><span class="required"> *</span>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                    <label for="lname">Email</label><span class="required"> *</span>
+                    <input type="text" id="email" name="email" placeholder="Enter your email..." required>
+
+                    <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="not given">Please choose your location...</option>
+                            <option value="north america">North America</option>
+                            <option value="south america">South America</option>
+                            <option value="europe">Europe</option>
+                            <option value="europe">Asia</option>
+                            <option value="europe">Africa</option>
+                            <option value="europe">Austrialla and New Zealand</option>
+                        </select>
+
+                    <label for="subject">Subject</label><span class="required"> *</span>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p><a href ="index.html" style="color: black">Home</a></p>
+            <p>Copyright 2021 James McDaid</p>
+        </footer>
+    </body>
+</html>
